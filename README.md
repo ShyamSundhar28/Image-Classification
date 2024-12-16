@@ -1,5 +1,3 @@
-# Image-Classification
-
 CNN Classification of Dogs and Cats
 This repository contains the code and report for the Convolutional Neural Network (CNN) project focused on classifying images as either a cat or a dog.
 
@@ -27,19 +25,17 @@ cnn_dog_cat_classification.ipynb: The main notebook with code and results.
 Training, validation, and test datasets: Sourced from Kaggle’s Cats and Dogs dataset, used for building and evaluating the model.
 
 4. Results
-After training the CNN for 20 epochs, the model achieved:
+After training the CNN for 25 epochs, the model achieved:
 
-Training Accuracy: 98%
-Validation Accuracy: 96%
-Test Accuracy: 95%
+Test Accuracy: 83%
 The results demonstrate the model’s robust performance in distinguishing between cats and dogs. Balanced accuracy was observed across both classes, with minimal misclassifications.
 
-The main findings of the code can be found at the post on Medium available here
+The main findings of the code can be found at the post on Medium available https://medium.com/@shyamsundhar432/building-a-cnn-to-classify-cats-and-dogs-0c1ce0c3048c
 
 5. Licensing, Authors, and Acknowledgements
 This project was created for educational purposes.
 
-Dataset: The Kaggle Cats and Dogs dataset was used for this project.
-Author: [Your Name]
+Dataset: The Kaggle Cats and Dogs dataset was used for this project. The dataset is stored in google drive https://drive.google.com/drive/folders/1Q22dRAzvg1Jp19KfStf5LM-JNIS9gaXH?usp=sharing
+Author: Shyam Sundhar Kumaravel
 Acknowledgements: Special thanks to Kaggle for providing the dataset and to TensorFlow/Keras for the deep learning framework used in this project.
 Feel free to use or modify this project while giving appropriate credit.
